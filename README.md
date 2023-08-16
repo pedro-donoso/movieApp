@@ -6,29 +6,43 @@
 
 ```rails new movieApp -d postgresql```
 
-```cd movieApp```
+```bash
+cd movieApp
+```
 
-```git add .```
+```bash
+git add .
+```
 
-```git commit -m "primer commit"```
+```bash
+git commit -m "primer commit"
+```
 
 ### 2 - Creo scaffold de las categorías: 
 
 Movie
 
-```rails g scaffold Movie name synopsis director```
+```bash
+rails g scaffold Movie name synopsis director
+```
 
 serie (problema camelCase)
 
-```rails g scaffold serie name synopsis director```
+```bash
+rails g scaffold serie name synopsis director
+```
 
 DocumentaryFilm
 
-```rails g scaffold DocumentaryFilm name synopsis director```
+```bash
+rails g scaffold DocumentaryFilm name synopsis director
+```
 
 ### 3 - Abro vscode y creo terminales especificas:
 
-```code .```
+```bash
+code .
+```
 
 *terminal*
 
@@ -38,7 +52,9 @@ DocumentaryFilm
 
 ### 4 - Inicio base de datos en Postgresql
 
-```sudo service postgresql start```
+```bash
+sudo service postgresql start
+```
 
 ### 5 - Creo repositorio en Github
 
@@ -58,7 +74,9 @@ open on GitHub
 
 desde terminal:
 
-```rails db:create```
+```bash
+rails db:create
+```
 
 crea 3 bases de datos: 
 
@@ -70,7 +88,9 @@ crea 3 bases de datos:
 
 ### 7 - Migro bases de datos
 
+```bash
 rails db:migrate
+```
 
 crea schema
 
@@ -85,7 +105,9 @@ guardo
 
 ### 9 - Inicio servidor de rails
 
+```bash
 rails s
+```
 
 reviso app en localhost
 
@@ -106,13 +128,17 @@ obtengo links desde localhost
 
 ### 12 - Agrego la gema Faker
 
-```bundle add faker```
+```bash
+bundle add faker
+```
 
 ### 13 Reinicio servidor rails
 
 ctrl + c
 
-```rails s```
+```bash
+rails s
+```
 
 ### 14 - Creo seeds
 
@@ -133,4 +159,6 @@ end
 
 ### 16 - Agrego seed:
 
-```rails db:seed```
+```bash
+rails db:seed
+```
