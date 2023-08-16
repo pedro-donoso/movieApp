@@ -8,9 +8,43 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
   </head>
 
   <body>
+
+
+
+<nav>
+      <ul>
+        <li>
+          <%= link_to "Home", root_path %>
+        </li>
+
+        <li>
+           <%= link_to "Documentary films", documentary_films_path %>
+        </li>
+
+<%# palabra reservada serie trato diferente %>
+
+        <li>
+           <%= link_to "Series", series_index_path %>  
+        </li>
+
+        <li>
+           <%= link_to "Movies", movies_path %>
+        </li>
+
+
+      </ul>
+</nav>
+
+
     <%= yield %>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
   </body>
 </html>
