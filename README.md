@@ -1,3 +1,5 @@
+![Captura desde 2023-08-16 18-02-28](https://github.com/pedro-donoso/movieApp/assets/68760595/b3edb60a-96f5-4bdc-beda-cfc8fb1476ec)
+
 # Proceso
 
 ### 1 - Creo proyecto en rails 
