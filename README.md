@@ -92,3 +92,36 @@ js (antes de </body>)
 ### 11 - Agrego Navbar a application.html.erb
 
 obtengo links desde localhost
+
+<%= link_to "Home", root_path %>
+
+### 12 - Agrego la gema Faker
+
+```bundle add faker```
+
+### 13 Reinicio servidor rails
+
+ctrl + c
+
+```rails s```
+
+### 14 - Creo seeds
+
+en la carpeta db -> seeds.rb:
+
+20.times do
+Movie.create(name: Faker::Movie.title,
+			synopsis: Faker::Movie.quote,
+			director: Faker::Name.name,
+)
+end
+
+*en singular para cada elemento*
+
+### 15 - Revisar modelos para ver nombre de las clases:
+
+*Documentary_films cambia formato a DocumentaryFilms*
+
+### 16 - Agrego seed:
+
+```rails db:seed```
