@@ -20,9 +20,4 @@
     )
     end
     
-    20.times do
-    Documentary.create(name: Faker::Documentary.title,
-                synopsis: Faker::Movie.quote,
-                director: Faker::Name.name,
-    )
-    end
+   
