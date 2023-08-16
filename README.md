@@ -28,11 +28,11 @@ DocumentaryFilm
 
 ```code .```
 
-terminal
+*terminal*
 
-postgresql
+*postgresql*
 
-rails server
+*rails server*
 
 ### 4 - Inicio base de datos en Postgresql
 
@@ -59,7 +59,12 @@ desde terminal:
 ```rails db:create```
 
 crea 3 bases de datos: 
-movies, series, documentary_films
+
+*movies*
+
+*series*
+
+*documentary_films*
 
 ### 7 - Migro bases de datos
 
