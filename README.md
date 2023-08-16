@@ -29,7 +29,9 @@ DocumentaryFilm
 ```code .```
 
 terminal
+
 postgresql
+
 rails server
 
 ### 4 - Inicio base de datos en Postgresql
