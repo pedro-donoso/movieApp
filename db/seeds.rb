@@ -14,8 +14,8 @@
     end
     
     20.times do
-    Serie.create(name: Faker::Serie.title,
-                synopsis: Faker::Serie.quote,
+    Serie.create(name: Faker::Movie.title,
+                synopsis: Faker::Movie.quote,
                 director: Faker::Name.name,
     )
     end
