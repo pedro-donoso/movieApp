@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Documentary films</h1>
+
+<div id="documentary_films">
+  <% @documentary_films.each do |documentary_film| %>
+    <%= render documentary_film %>
+    <p>
+      <%= link_to "Show this documentary film", documentary_film %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New documentary film", new_documentary_film_path %>
